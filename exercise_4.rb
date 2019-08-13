@@ -18,14 +18,12 @@ class ScrambledDiary
 end
 
 class Reversing
-  def initialize
-  end
-  def method(contents, *arg)
+  def method(contents, *nothing)
     contents.reverse
   end
 end
 
-class MovingChars
+class AdvancingChars
   def initialize(steps)
     @steps = steps
   end
